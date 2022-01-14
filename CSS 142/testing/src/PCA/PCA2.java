@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class PCA2 {
 
     static Scanner keyboard = new Scanner(System.in);
-    //static boolean isBrithday;
+    static boolean isBrithday;
     //static int speeding = keyboard.nextInt();
 
     public static void main(String[] args) {
@@ -20,7 +20,7 @@ public class PCA2 {
         int speeding = keyboard.nextInt();
         System.out.println("Your Input Speed is " + speeding);
 
-        if (speeding <= 60) {
+        if (speeding <= 60 ) {
             //isBrithday = true;
             System.out.println("Your recive a no ticket.");
         }
