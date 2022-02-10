@@ -3,7 +3,7 @@ package experimenting;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
-import java.util.Currency;
+//import java.util.Currency;
 import java.util.Locale;
 
 public class variablesstringttesing {
